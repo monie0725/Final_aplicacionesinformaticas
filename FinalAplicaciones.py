@@ -52,3 +52,6 @@ def refresh_board(self):
         self.board[row][col] = piece
         self.selected_piece = None
         self.refresh_board()
+
+        chess_game = ChessGame()
+chess_game.mainloop()
